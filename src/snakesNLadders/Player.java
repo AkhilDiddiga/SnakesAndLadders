@@ -4,7 +4,7 @@ public class Player {
 	private int playerNo;
 	private String playerName;
 	private int currentPos;
-	private PlayerPositionChangeListener listener;
+	private PlayerPositionChangeListener listener; // this listener is called when player position is updated
 	
 	public Player(int i) {
 		this.playerNo = i;
