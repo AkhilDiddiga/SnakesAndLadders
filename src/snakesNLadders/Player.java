@@ -1,9 +1,9 @@
 package snakesNLadders;
 
 public class Player {
-	private int playerNo;
-	private String playerName;
-	private int currentPos;
+	private int playerNo; 
+	private String playerName; //custom player name
+	private int currentPos; // current position of the player
 	private PlayerPositionChangeListener listener; // this listener is called when player position is updated
 	
 	public Player(int i) {
